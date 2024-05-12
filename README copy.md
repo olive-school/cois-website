@@ -1,1 +1,0 @@
-# st-coid.edu.in

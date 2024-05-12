@@ -1,0 +1,56 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    // https://www.typescriptlang.org/tsconfig#compilerOptions
+    "compilerOptions": {
+        // https://www.typescriptlang.org/tsconfig#lib - include type defination of given APIs
+        "lib": [
+            "ES2020",
+            "dom"
+        ],
+        // https://www.typescriptlang.org/tsconfig#module - https://www.typescriptlang.org/docs/handbook/modules.html
+        "module": "es2020",
+        // https://www.typescriptlang.org/tsconfig#target - https://www.typescriptlang.org/tsconfig#target
+        "target": "es2020",
+        // https://www.typescriptlang.org/tsconfig#outDir - change outdir as per project needs.
+        "outDir": "lib",
+        // https://www.typescriptlang.org/tsconfig#declaration - to generate type file
+        "declaration": true,
+        // https://www.typescriptlang.org/tsconfig#declarationMap - to generate source map of declaration file which will map to original ts file
+        "declarationMap": true,
+        // https://www.typescriptlang.org/tsconfig#sourceMap - generate source map files
+        "sourceMap": true,
+        // https://www.typescriptlang.org/tsconfig#strict -  enables a wide range of type checking behavior that results in stronger guarantees of program correctness
+        "strict": true,
+        // https://www.typescriptlang.org/tsconfig#moduleResolution Specify the module resolution strategy: 'node' (Node.js) or 'classic'
+        "moduleResolution": "node",
+        // https://www.typescriptlang.org/tsconfig#experimentalDecorators - Enable support of decorators in typescript
+        "experimentalDecorators": true,
+        // https://www.typescriptlang.org/tsconfig#removeComments- Strips all comments from TypeScript files when converting into JavaScript. 
+        "removeComments": true,
+        // https://www.typescriptlang.org/tsconfig#noUnusedParameters - return error on passing unused paramter
+        "noUnusedParameters": true,
+        // https://www.typescriptlang.org/tsconfig#noFallthroughCasesInSwitch Report errors for fallthrough cases in switch statements. Ensures that any non-empty case inside a switch statement includes either break or return.
+        "noFallthroughCasesInSwitch": true,
+        // https://www.typescriptlang.org/tsconfig#noImplicitReturns - will not allow implicit returns
+        "noImplicitReturns": true,
+        // https: //www.typescriptlang.org/tsconfig#noImplicitOverride - verifying override function from base class
+        // "noImplicitOverride": true,
+        // https: //www.typescriptlang.org/tsconfig#noUnusedLocals - not allowing unused local variables 
+        "noUnusedLocals": true,
+        // https://www.typescriptlang.org/tsconfig#noImplicitThis - not allowing use of this with any type
+        "noImplicitThis": true,
+        //https://www.typescriptlang.org/tsconfig#allowUnreachableCode - Give warning when unreachable code has been detected
+        "allowUnreachableCode": false,
+        // https: //www.typescriptlang.org/tsconfig#forceConsistentCasingInFileNames
+        "forceConsistentCasingInFileNames": true,
+        // https://www.typescriptlang.org/tsconfig#plugins
+        "plugins": [
+            {
+                "name": "ts-lit-plugin"
+            }
+        ]
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
+}

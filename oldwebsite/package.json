@@ -1,0 +1,12 @@
+{
+  "name": "cois",
+  "description": "cois project",
+  "scripts": {
+    "deploy-dev": "firebase deploy --except functions --token $FIREBASE_TOKEN",
+    "serve": "firebase serve --only hosting:cois-edu-in",
+    "deploy": "firebase target:apply hosting cois-edu-in cois-edu-in && firebase deploy --only hosting:cois-edu-in"
+  },
+  "devDependencies": {
+    "firebase-tools": "^13.0.3"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "cois-edu-in": "oliveschool-451a5",
+    "default": "oliveschool-451a5"
+  },
+  "targets": {
+    "oliveschool-451a5": {
+      "hosting": {
+        "cois-edu-in": [
+          "cois-edu-in"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

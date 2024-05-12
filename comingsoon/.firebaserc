@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "cskjco": "e-clients",
+    "default": "e-clients"
+  },
+  "targets": {
+    "e-clients": {
+      "hosting": {
+        "oliveschool": [
+          "oliveschool"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

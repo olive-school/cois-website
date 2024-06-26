@@ -1683,12 +1683,12 @@ nav{width:100%; background:#003a89;}
 /***********============================================== about_page =====================================================***********/
 
 /***********============================================== knowledge_page =====================================================***********/
-@media only screen and (max-width: 600px) {.knowledge_page{padding:50px 20px 80px 20px;}}
-@media only screen and (min-width: 600px) {.knowledge_page{padding:50px 20px 80px 20px;}}
-@media only screen and (min-width: 768px) {.knowledge_page{padding:50px 20px 80px 20px;}} 
-@media only screen and (min-width: 992px) {.knowledge_page{padding:50px 50px 80px 50px;}} 
-@media only screen and (min-width: 1200px) {.knowledge_page{padding:50px 100px 80px 100px;}}
-@media only screen and (min-width: 1500px) {.knowledge_page{padding:50px 160px 80px 160px;}}
+@media only screen and (max-width: 600px) {.knowledge_page{padding:50px 20px 30px 20px;}}
+@media only screen and (min-width: 600px) {.knowledge_page{padding:50px 20px 30px 20px;}}
+@media only screen and (min-width: 768px) {.knowledge_page{padding:50px 20px 30px 20px;}} 
+@media only screen and (min-width: 992px) {.knowledge_page{padding:50px 50px 30px 50px;}} 
+@media only screen and (min-width: 1500px) {.knowledge_page{padding:50px 100px 30px 100px;}}
+@media only screen and (min-width: 1500px) {.knowledge_page{padding:50px 160px 30px 160px;}}
 .knowledge_page .mt30{margin-top:30px;}
 .knowledge_page .mt15{margin-top:15px;}
 .knowledge_page h6{
@@ -2156,7 +2156,7 @@ nav{width:100%; background:#003a89;}
 @media only screen and (min-width: 600px) {.academic_page{padding:50px 20px 80px 20px;}}
 @media only screen and (min-width: 768px) {.academic_page{padding:50px 20px 80px 20px;}} 
 @media only screen and (min-width: 992px) {.academic_page{padding:50px 50px 80px 50px;}} 
-@media only screen and (min-width: 1200px) {.academic_page{padding:50px 100px 80px 100px;}}
+@media only screen and (min-width: 1200px) {.academic_page{padding:00px 100px 80px 100px;}}
 @media only screen and (min-width: 1500px) {.academic_page{padding:50px 160px 80px 160px;}}
 .academic_page .mt30{margin-top:30px;}
 .academic_page .mt15{margin-top:15px;}
@@ -2367,7 +2367,7 @@ nav{width:100%; background:#003a89;}
 }
 
 .academic_page .block1{
-	border:1px solid #ccc; border-radius:8px; padding:10px 10px 10px 10px; text-align:center; background:#f5f5f5;
+	border:1px solid #ccc; margin-bottom: 20px; border-radius:8px; padding:10px 10px 10px 10px; text-align:center; background:#f5f5f5;
 }
 .academic_page .name{
 	font-family: 'Lato', sans-serif;
@@ -2876,3 +2876,4 @@ nav{width:100%; background:#003a89;}
 .section6 ul li a{color:#ccc;}
 
 /***********============================================== circular_page =====================================================***********/
+

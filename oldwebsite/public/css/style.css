@@ -1766,7 +1766,7 @@ nav{width:100%; background:#003a89;}
 	border:1px solid #ccc; border-radius:8px; padding:10px 10px 10px 10px; text-align:center;
 }
 .knowledge_page .block1{
-	border:1px solid #ccc; border-radius:8px; padding:10px 10px 10px 10px;
+	border:1px solid #ccc; border-radius:8px; padding:10px 10px 10px 10px; margin-bottom: 20px;
 }
 .knowledge_page .main_title{
 	font-family: 'Lato', sans-serif;

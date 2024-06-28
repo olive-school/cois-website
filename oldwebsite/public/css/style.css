@@ -2156,7 +2156,7 @@ nav{width:100%; background:#003a89;}
 @media only screen and (min-width: 600px) {.academic_page{padding:50px 20px 80px 20px;}}
 @media only screen and (min-width: 768px) {.academic_page{padding:50px 20px 80px 20px;}} 
 @media only screen and (min-width: 992px) {.academic_page{padding:50px 50px 80px 50px;}} 
-@media only screen and (min-width: 1200px) {.academic_page{padding:00px 100px 80px 100px;}}
+@media only screen and (min-width: 1200px) {.academic_page{padding:00px 100px 10px 100px;}}
 @media only screen and (min-width: 1500px) {.academic_page{padding:10px 160px 10px 160px;}}
 .academic_page .mt30{margin-top:30px;}
 .academic_page .mt15{margin-top:15px;}

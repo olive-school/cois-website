@@ -2877,3 +2877,33 @@ nav{width:100%; background:#003a89;}
 
 /***********============================================== circular_page =====================================================***********/
 
+.ibtest{
+ float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.ibtest:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-top: 20px;
+}
+
+.ibtestblock{
+	border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    background: #f5f5f5;
+    display: flex;
+    margin-left: 20px;
+ 
+}
+
+@media screen and (max-width: 600px) {
+  .ibtest {
+    width: 100%;
+  }
+}

@@ -1187,11 +1187,7 @@ nav{width:100%; background:#003a89;}
     color: #003a89;
 	font-size: 16px;
 }
-#calendar .fc-event{background:#727e8a; border-color:#727e8a;}
-#fbContent{border-radius:40px 40px 80px 80px !important;}
-.fb-column{margin:18px auto 0px auto !important; text-align:center;}
-.fc-unthemed td.fc-today {background: #fff6f1 !important;}
-.fc-view-container{ background:#fff;}
+
 /***********============================================== section10 =====================================================***********/
 
 /***********============================================== footer =====================================================***********/
@@ -2421,8 +2417,8 @@ nav{width:100%; background:#003a89;}
 	font-size: 16px;
 }
 #calendar .fc-event{background:#727e8a; border-color:#727e8a;}
-#fbContent{border-radius:40px 40px 80px 80px !important;}
-.fb-column{margin:18px auto 0px auto !important; text-align:center;}
+#fbContent{border-radius:40px 40px 80px 80px;}
+.fb-column{margin:18px auto 0px auto; text-align:center;}
 .fc-unthemed td.fc-today {background: #fff6f1 !important;}
 .fc-view-container{ background:#fff;}
 /***********============================================== event_page =====================================================***********/

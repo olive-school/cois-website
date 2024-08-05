@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popup Box Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+        body {
+            text-align: center;
+            height: 100vh;
+            margin: 0;
+            align-items: center;
+            justify-content: center;
+            background-color: #f0f0f0;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+        .cont{
+            margin-top: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <h3>Create popup box using SweetAlert</h3>
+        <button onclick="showPopup()">Show Popup</button>
+    </div>
+   
+    
+
+    <script>
+        function showPopup() {
+            Swal.fire({
+                title: "Welcome to GeeksForGeeks!",
+                text: "GeeksForGeeks is the best platform for Learning.",
+                showCloseButton: true,
+                icon: 'info' 
+            });
+        }
+    </script>
+</body>
+</html>

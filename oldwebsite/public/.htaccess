@@ -1,2 +1,11 @@
 ﻿
-ErrorDocument 404 /errors/404.html
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+
+
+
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+RewriteRule ^oldpage\.html$ newpage.html [L,R=301]

@@ -1,4 +1,4 @@
 ﻿User-agent: *
-Disallow: /
-Disallow: /cgi-bin/
-Sitemap: https://cois.edu.in/sitemap.html
+Disallow:
+
+Sitemap: https://cois.edu.in/sitemap.xml

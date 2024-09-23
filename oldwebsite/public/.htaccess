@@ -3,6 +3,24 @@
 RewriteEngine On
 RewriteCond %{HTTPS} off
 
+Redirect 301 /paid_subscription.html https://cois.edu.in/paid-subscription.html
+Redirect 301 /learning_support.html https://cois.edu.in/learning-support.html
+Redirect 301 /famous_visitor.html https://cois.edu.in/famous-visitor.html
+Redirect 301 /admission_criteria.html https://cois.edu.in/admission-criteria.html
+Redirect 301 /atl_skill.html https://cois.edu.in/atl-skill.html
+Redirect 301 /human_library_portal.html https://cois.edu.in/human-library-portal.html
+Redirect 301 /cas_activity.html https://cois.edu.in/cas-activity.html
+Redirect 301 /campas_chronicles.html https://cois.edu.in/campas-chronicles.html
+Redirect 301 /director’s_corner.html https://cois.edu.in/director’s-corner.html
+Redirect 301 /student’s_corner.html https://cois.edu.in/student’s-corner.html
+Redirect 301 /developing_learner_profiles.html https://cois.edu.in/developing-learner-profiles.html
+Redirect 301 /the_role_of_emotional_intelligence.html https://cois.edu.in/the-role-of-emotional-intelligence.html
+Redirect 301 /how_to_support_your_child’s_learning_journey_at_home.html https://cois.edu.in/how-to-support-your-child’s-learning-journey-at-home.html
+Redirect 301 /encouraging_the_good_in_every_child.html https://cois.edu.in/encouraging-the-good-in-every-child.html
+Redirect 301 /building_resilience.html https://cois.edu.in/building-resilience.html
+Redirect 301 /fostering_creativity.html https://cois.edu.in/fostering-creativity.html
+Redirect 301 /redefining_success.html https://cois.edu.in/redefining-success.html
+Redirect 301 /the_importance_of_atl_skill_development.html https://cois.edu.in/the-importance-of-atl-skill-development.html
 
 
 ErrorDocument 404/404.html

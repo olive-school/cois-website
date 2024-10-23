@@ -1,14 +1,14 @@
-﻿
-# Redirect to HTTPS
+﻿# Redirect to HTTPS
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+ErrorDocument 404 /404.html
 
-ErrorDocument 404/404.html
-
-RewriteEngine On
+# Redirect old page to new page
 RewriteRule ^oldpage\.html$ newpage.html [L,R=301]
 
+# Permanent redirects
 Redirect 301 /paid_subscription.html https://cois.edu.in/paid-subscription.html
 Redirect 301 /learning_support.html https://cois.edu.in/learning-support.html
 Redirect 301 /famous_visitor.html https://cois.edu.in/famous-visitor.html
